@@ -19,6 +19,8 @@
   height: 300px;
   margin: 10px;
 }
+
+/* card hover */
 .image_wrapper {
   position: relative;
 }
@@ -47,6 +49,8 @@
 .image_wrapper:hover .overlay_3 {
   transform: scale(1);
 }
+
+/* footer */
 .footer {
     background-color: rgb(222, 207, 177);
     padding: 20px;
@@ -132,4 +136,18 @@
     bottom: 32px;
     pointer-events: auto;
     opacity: 1;
+}
+
+/* Scroll bar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #11171d99;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b5b8bb;
 }
