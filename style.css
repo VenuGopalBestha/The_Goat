@@ -19,7 +19,34 @@
   height: 300px;
   margin: 10px;
 }
+.image_wrapper {
+  position: relative;
+}
+.overlay {
+  color: #ffffff;
+  position: absolute;
+  background: #11171d99
+      /* center overlay text */
+      display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
 
+.overlay_3 {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  transform: scale(0);
+  transition: all .3s ease-in-out;
+  backdrop-filter: blur(8px) brightness(80%);
+}
+
+.image_wrapper:hover .overlay_3 {
+  transform: scale(1);
+}
 .footer {
     background-color: rgb(222, 207, 177);
     padding: 20px;
