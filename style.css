@@ -1,4 +1,25 @@
-
+.carousel-img {
+  width: 100vw;
+  height: 600px;
+}
+.cards {
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: center;
+  margin: 20px;
+  border: 1px solid #888;
+  width: 30vw;
+  padding-top: 10px;
+}
+.cards:hover {
+  cursor: pointer;
+  transform: translateY(15px);
+}
+.t-list-img {
+  border-radius: 5px;
+  height: 300px;
+  margin: 10px;
+}
 
 .footer {
     background-color: rgb(222, 207, 177);
